@@ -39,7 +39,7 @@ def what_to_wear(celsius):
     
    else:
        wear_this_clothe = clothes[5]
-       #The purpose of this code is for Celsius degrees exactky at 10, 20, etc.
+       #The purpose of this code is for Celsius degrees exactly at 10, 20, etc.
        #because the clothes for such degrees are not defined.
     
    print("The temperature is ", celsius, " degrees Celsius.")
@@ -62,7 +62,7 @@ def compute_triangle_perimeter(x1, y1, x2, y2, x3, y3):
     s1 = euclidean_distance(x1, y1, x2, y2)
     s2 = euclidean_distance(x2, y2, x3, y3)
     s3 = euclidean_distance(x3, y3, x1, y1)
-    return round(s1 + s2 + s3, 4)
+    return round(s1 + s2 + s3, 4) #The perimeter is rounded because it could be too long
 
 
 # ---------------------------- Exercise III -------------------------------------
@@ -78,6 +78,7 @@ def apothem(number_sides, length_side):
 
 def polygon_area(number_sides, length_side):
    return round(number_sides * length_side * apothem(number_sides, length_side), 4)
+    #The area is rounded because it could be too long
 
 
 # ---------------------------- Test -------------------------------------
