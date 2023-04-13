@@ -1,6 +1,15 @@
 # Name: Seoyeong Kim
 # SBUID: 115933295
+##################### SCORE ######################
+####### Score:  2/10  - attemped to write some functions
+#################################################
+# your output -- All wrong
+# (base) D:\CSE 101 Ass1\Assignment 1 - Functions and Arithmetic-04-05-2023-05-19-27>D:/anaconda/python.exe "d:/CSE 101 Ass1/Assignment 1 - Functions and Arithmetic-04-05-2023-05-19-27/SeoyeongKim-0427/Homework_1.py"
+# The temperature is  10  degrees Celsius.
+# You should wear a ...did not think of this case. 
 
+# The area of the triangle is : 2.5 , its perimeter is : 27.4402
+# The area of the polygon is : 310.0188
 # Remove the ellipses (...) when writing your solutions.
 import math
 # ---------------------------- Exercise I ---------------------------------------
